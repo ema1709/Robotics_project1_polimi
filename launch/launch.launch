@@ -1,0 +1,16 @@
+<launch>
+  <!-- Nodo GPS -->
+  <node name="gps_node" pkg="first_project" type="gps_odometer" output="screen" />
+
+  <!-- Nodo Odometry -->
+  <node name="odom_node" pkg="first_project" type="odometer" output="screen" />
+
+  <!-- Nodo TF Broadcaster -->
+  <node name="tf_broadcaster" pkg="first_project" type="sector_times" output="screen" />
+
+  <!-- RViz con configurazione predefinita -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find first_project)/rviz/config.rviz" output="screen" /> 
+
+</launch>
+
+
