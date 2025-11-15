@@ -25,16 +25,4 @@ All nodes are launched from a single `launch.launch` file and visualized in **RV
 
 ---
 
-## 🧱 Repository Structure
 
-\`\`\`
-Robotics_project1_polimi/
-│
-├── first_project/
-│   ├── src/
-│   ├── msg/
-│   ├── launch/
-│   ├── CMakeLists.txt
-│   └── package.xml
-└── README.md
-\`\`\`
